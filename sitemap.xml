@@ -2,127 +2,132 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/index.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/documentation.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/index.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclcpp/index.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclcpp/initialization.html</loc>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclcpp/logging.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclcpp/nodes.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclcpp/parameters.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclcpp/pcl.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclcpp/tf2.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclcpp/time.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclcpp/workarounds.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclpy/index.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclpy/logging.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclpy/nodes.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclpy/parameters.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclpy/tf2.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/client_libraries/rclpy/time.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/tools/index.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/tools/bag.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/tools/cmake.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/tools/colcon.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/tools/command_line.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/tools/launch.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/tools/networking.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/mikeferguson/ros2_cookbook/tools/rosdep.html</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
