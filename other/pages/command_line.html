@@ -12,28 +12,28 @@
         <meta name="author" content="Michael Ferguson">
       
       
-        <link rel="canonical" href="https://github.com/mikeferguson/ros2_cookbook/tools/colcon.html">
+        <link rel="canonical" href="https://github.com/mikeferguson/ros2_cookbook/other/pages/command_line.html">
       
       
-        <link rel="prev" href="command_line.html">
+        <link rel="prev" href="colcon.html">
       
       
-        <link rel="next" href="cmake.html">
+        <link rel="next" href="launch.html">
       
       
-      <link rel="icon" href="../assets/icon.svg">
+      <link rel="icon" href="../../assets/icon.svg">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
     
     
       
-        <title>colcon - ROS 2 Cookbook</title>
+        <title>Command_line - ROS 2 Cookbook</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.fad675c6.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.fad675c6.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
       
       
 
@@ -54,9 +54,9 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -84,11 +84,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#command-line-colcon" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -101,9 +96,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../index.html" title="ROS 2 Cookbook" class="md-header__button md-logo" aria-label="ROS 2 Cookbook" data-md-component="logo">
+    <a href="../.." title="ROS 2 Cookbook" class="md-header__button md-logo" aria-label="ROS 2 Cookbook" data-md-component="logo">
       
-  <img src="../assets/icon.svg" alt="logo">
+  <img src="../../assets/icon.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -120,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              colcon
+              Command_line
             
           </span>
         </div>
@@ -218,29 +213,12 @@
   
   
     <li class="md-tabs__item">
-      <a href="../index.html" class="md-tabs__link">
+      <a href="../../client_libraries/index.html" class="md-tabs__link">
         
   
     
   
-  Home
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../client_libraries/index.html" class="md-tabs__link">
-        
-  
-    
-  
-  Client Libraries
+  Client Librairies
 
       </a>
     </li>
@@ -259,24 +237,7 @@
   
     
   
-  ROS 2 Tools
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../documentation.html" class="md-tabs__link">
-        
-  
-    
-  
-  Documentation
+  Other
 
       </a>
     </li>
@@ -311,9 +272,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../index.html" title="ROS 2 Cookbook" class="md-nav__button md-logo" aria-label="ROS 2 Cookbook" data-md-component="logo">
+    <a href="../.." title="ROS 2 Cookbook" class="md-nav__button md-logo" aria-label="ROS 2 Cookbook" data-md-component="logo">
       
-  <img src="../assets/icon.svg" alt="logo">
+  <img src="../../assets/icon.svg" alt="logo">
 
     </a>
     ROS 2 Cookbook
@@ -332,26 +293,6 @@
     </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../index.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Home
-  </span>
-  
-
-      </a>
-    </li>
-  
-
     
       
       
@@ -382,32 +323,32 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../client_libraries/index.html" class="md-nav__link ">
+            <a href="../../client_libraries/index.html" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
-    Client Libraries
+    Client Librairies
   </span>
   
 
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
-            Client Libraries
+            Client Librairies
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -445,32 +386,32 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_1" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../client_libraries/rclcpp/index.html" class="md-nav__link ">
+            <a href="../../client_libraries/rclcpp/index.html" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
-    rclcpp
+    C++
   </span>
   
 
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_1_1" id="__nav_1_1_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_1">
             <span class="md-nav__icon md-icon"></span>
-            rclcpp
+            C++
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -481,154 +422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../client_libraries/rclcpp/nodes.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Nodes
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../client_libraries/rclcpp/parameters.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Parameters
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../client_libraries/rclcpp/logging.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Logging
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../client_libraries/rclcpp/time.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Time
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../client_libraries/rclcpp/tf2.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    TF2
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../client_libraries/rclcpp/pcl.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Point Clouds
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../client_libraries/rclcpp/workarounds.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Workarounds
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../client_libraries/rclcpp/initialization.html" class="md-nav__link">
+      <a href="../../client_libraries/rclcpp/initialization.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -642,6 +436,153 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client_libraries/rclcpp/logging.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Logging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client_libraries/rclcpp/nodes.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nodes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client_libraries/rclcpp/parameters.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Parameters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client_libraries/rclcpp/pcl.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pcl
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client_libraries/rclcpp/tf2.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tf2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client_libraries/rclcpp/time.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Time
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client_libraries/rclcpp/workarounds.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Workarounds
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -678,32 +619,32 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_2" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../client_libraries/rclpy/index.html" class="md-nav__link ">
+            <a href="../../client_libraries/rclpy/index.html" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
-    rclpy
+    Python
   </span>
   
 
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_1_2" id="__nav_1_2_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_2">
             <span class="md-nav__icon md-icon"></span>
-            rclpy
+            Python
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -714,49 +655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../client_libraries/rclpy/nodes.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Nodes
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../client_libraries/rclpy/parameters.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Parameters
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../client_libraries/rclpy/logging.html" class="md-nav__link">
+      <a href="../../client_libraries/rclpy/logging.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -777,11 +676,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../client_libraries/rclpy/time.html" class="md-nav__link">
+      <a href="../../client_libraries/rclpy/nodes.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Time
+    Nodes
   </span>
   
 
@@ -798,11 +697,53 @@
   
   
     <li class="md-nav__item">
-      <a href="../client_libraries/rclpy/tf2.html" class="md-nav__link">
+      <a href="../../client_libraries/rclpy/parameters.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    TF2
+    Parameters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client_libraries/rclpy/tf2.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tf2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client_libraries/rclpy/time.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Time
   </span>
   
 
@@ -837,6 +778,8 @@
   
     
     
+      
+        
       
         
       
@@ -864,7 +807,7 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           
@@ -873,46 +816,25 @@
               
   
   <span class="md-ellipsis">
-    ROS 2 Tools
+    Other
   </span>
   
 
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            ROS 2 Tools
+            Other
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="launch.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    ros2launch
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
             
               
                 
@@ -925,7 +847,7 @@
         
   
   <span class="md-ellipsis">
-    rosbag2
+    Bag
   </span>
   
 
@@ -942,11 +864,11 @@
   
   
     <li class="md-nav__item">
-      <a href="networking.html" class="md-nav__link">
+      <a href="cmake.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Networking (DDS & CycloneDDS)
+    Cmake
   </span>
   
 
@@ -963,11 +885,11 @@
   
   
     <li class="md-nav__item">
-      <a href="command_line.html" class="md-nav__link">
+      <a href="colcon.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Command Line Tools
+    Colcon
   </span>
   
 
@@ -990,111 +912,16 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
       
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    colcon
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="colcon.html" class="md-nav__link md-nav__link--active">
+      <a href="command_line.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    colcon
+    Command_line
   </span>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#my-aliases" class="md-nav__link">
-    <span class="md-ellipsis">
-      My Aliases
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#build" class="md-nav__link">
-    <span class="md-ellipsis">
-      Build
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cmake-arguments" class="md-nav__link">
-    <span class="md-ellipsis">
-      CMake Arguments
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#test" class="md-nav__link">
-    <span class="md-ellipsis">
-      Test
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#formatting" class="md-nav__link">
-    <span class="md-ellipsis">
-      Formatting
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#be-careful-with-workspaces" class="md-nav__link">
-    <span class="md-ellipsis">
-      Be Careful With Workspaces
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#verb-documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Verb Documentation
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1108,11 +935,53 @@
   
   
     <li class="md-nav__item">
-      <a href="cmake.html" class="md-nav__link">
+      <a href="launch.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    CMake
+    Launch
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="networking.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Networking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="packages.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Packages
   </span>
   
 
@@ -1133,7 +1002,7 @@
         
   
   <span class="md-ellipsis">
-    rosdep
+    Rosdep
   </span>
   
 
@@ -1146,26 +1015,6 @@
           </ul>
         </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../documentation.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Documentation
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -1187,79 +1036,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#my-aliases" class="md-nav__link">
-    <span class="md-ellipsis">
-      My Aliases
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#build" class="md-nav__link">
-    <span class="md-ellipsis">
-      Build
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cmake-arguments" class="md-nav__link">
-    <span class="md-ellipsis">
-      CMake Arguments
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#test" class="md-nav__link">
-    <span class="md-ellipsis">
-      Test
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#formatting" class="md-nav__link">
-    <span class="md-ellipsis">
-      Formatting
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#be-careful-with-workspaces" class="md-nav__link">
-    <span class="md-ellipsis">
-      Be Careful With Workspaces
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#verb-documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Verb Documentation
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -1277,52 +1053,15 @@
   
 
 
-<h1 id="command-line-colcon">Command Line: Colcon</h1>
-<h2 id="my-aliases">My Aliases</h2>
-<p>I hate typing - so these are the aliases in my <code>~/.bashrc</code> for my most common workflow:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>alias build2=&quot;colcon build --symlink-install&quot;
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>alias test2=&quot;colcon test --event-handlers console_direct+&quot;
-</span></code></pre></div>
-<h2 id="build">Build</h2>
-<p><em>colcon</em> is used to build ROS2 packages in a workspace.</p>
-<p>Build all packages:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>colcon build
-</span></code></pre></div>
-<p>To avoid having to rebuild when tweaking Python scripts,
-config files, and launch files:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>colcon build --symlink-install
-</span></code></pre></div>
-<p>To fix most build issues, especially if you have added or removed packages
-to your workspace or installed new RMW implementations, clean the CMake
-cache. See this
-<a href="https://answers.ros.org/question/333534/when-to-use-cmake-cleanconfigure/">ROS Answers</a>
-post for more details.</p>
-<div class="highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>colcon build --cmake-clean-cache
-</span></code></pre></div>
-<h2 id="cmake-arguments">CMake Arguments</h2>
-<div class="highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>colcon build --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
-</span></code></pre></div>
-<h2 id="test">Test</h2>
-<p>To test and get results to screen:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>colcon test
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>colcon test-result --verbose
-</span></code></pre></div>
-<p>Build/test a single package:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>colcon &lt;verb&gt; --packages-select &lt;package-name&gt;
-</span></code></pre></div>
-<h2 id="formatting">Formatting</h2>
-<p>Get the output to the screen:</p>
-<div class="highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>colcon &lt;verb&gt; --event-handlers console_direct+
-</span></code></pre></div>
-<h2 id="be-careful-with-workspaces">Be Careful With Workspaces</h2>
-<p>You should probably build your workspace in a window where you have NOT sourced the
-setup.bash of that workspace. For more details on why, see
-<a href="https://github.com/colcon/colcon-core/issues/194">this ticket</a>.</p>
-<h2 id="verb-documentation">Verb Documentation</h2>
-<ul>
-<li><a href="https://colcon.readthedocs.io/en/released/reference/verb/build.html">build</a></li>
-<li><a href="https://colcon.readthedocs.io/en/released/reference/verb/test.html">test</a></li>
-</ul>
+  <h1>Command_line</h1>
+
+<p>#    * <code>ros2 run &lt;pkg&gt; &lt;node&gt;</code>
+  #    * <code>ros2 node list</code>
+  #    * <code>ros2 topic list</code>
+  #    * <code>ros2 topic info &lt;topic_name&gt; --verbose</code> gives details about QoS.
+  #    * <code>ros2 param list</code>
+  #    * <code>ros2 doctor --report</code> gives tons of information.
+  <code>rosdep install --from-paths src --ignore-src --rosdistro=humble -y</code></p>
 
 
 
@@ -1352,7 +1091,7 @@ setup.bash of that workspace. For more details on why, see
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="command_line.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Command Line Tools">
+          <a href="colcon.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Colcon">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1362,20 +1101,20 @@ setup.bash of that workspace. For more details on why, see
                 Previous
               </span>
               <div class="md-ellipsis">
-                Command Line Tools
+                Colcon
               </div>
             </div>
           </a>
         
         
           
-          <a href="cmake.html" class="md-footer__link md-footer__link--next" aria-label="Next: CMake">
+          <a href="launch.html" class="md-footer__link md-footer__link--next" aria-label="Next: Launch">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                CMake
+                Launch
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1413,10 +1152,10 @@ setup.bash of that workspace. For more details on why, see
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "header.autohide", "content.code.annotate", "content.tabs.link"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "content.tabs.link", "header.autohide", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      <script src="../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
       
     
   </body>
